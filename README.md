@@ -19,13 +19,13 @@ Since this is a descent from a standard paging class, you do need only framework
 This is a standard paging component so to use it in a very base manner, all you have to do, is to extend your CGridView configuration with the following line:
 
 ~~~php
-'pager'=>array('class'=>'LinkListPager')
+'pager'=>array('class'=>'CombinedPager')
 ~~~
 
 Yii, of course must be informed to load proper extension, so you can either add a line like this before your CGridView widget definition:
 
 ~~~php
-Yii::import('ext.LinkListPager.LinkListPager');
+Yii::import('ext.CombinedPager.CombinedPager');
 ~~~
 
 (providing correct path to the place, where you unpacked this extension.
@@ -39,7 +39,7 @@ This is a good approach, if you are using only one or just a few CGridViews with
         'application.models.*',
         'application.components.*',
         'application.extensions.*',
-        'ext.LinkListPager.LinkListPager'
+        'ext.CombinedPager.CombinedPager'
 ),
 ~~~
 
@@ -48,7 +48,7 @@ Since this extension descents from CLinkPager, you can use with it any configura
 ~~~php
 'pager'=>array
 (
-        'class'=>'LinkListPager',
+        'class'=>'CombinedPager',
         'maxButtonCount'=>25,
         'header'=>''
 )
