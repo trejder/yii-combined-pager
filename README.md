@@ -1,6 +1,6 @@
 # Yii Combined Pager
 
-**This project ABANDONED! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
+**This project ABANDONED, because I don't code in Yii1 anymore! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
 
 This is an extremely simple extension that is combining both CListPager and CLinkPager in one, allowing your users to select page of CGridView they want to go to by either clicking on a page button (CLinkPager) or selecting page from a drop down list (CListPager).
 
@@ -54,4 +54,4 @@ Since this extension descents from CLinkPager, you can use with it any configura
 )
 ~~~
 
-**This project ABANDONED! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
+**This project ABANDONED, because I don't code in Yii1 anymore! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
